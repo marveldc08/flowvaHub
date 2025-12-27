@@ -1,10 +1,14 @@
-import { useEffect, useState} from "react"
+import { useEffect, useState} from "react";
 import Sidebar from "../../components/SideBar";
 import PointsBalanceCard from "../../components/cards/PointsBalanceCard";
 import DailyStreakCard from "../../components/cards/DailyStreakCard";
 import SpotlightCard from "../../components/cards/SpotlightCard";
 import { Topbar } from "../../components/TopBar";
 import { ConfigProvider, Modal, Tabs } from 'antd';
+import twitter from "/src/assets/images/twitter.png";
+import linkedin from "/src/assets/images/linkedin.png";
+import whatsapp from "/src/assets/images/whatsapp.png";
+import facebook from "/src/assets/images/facebook.png";
  
 
 export default function RewardsPage() {
@@ -259,25 +263,25 @@ export default function RewardsPage() {
                                             className="w-[30px] h-[30px] rounded-full flex items-center justify-center text-white text-[18px] transition-transform duration-200 hover:translate-y-[-3px]"
                                             style={{background: "rgb(24, 119, 242)"}}
                                         >
-                                        <img src="/src/assets/images/facebook.png" />
+                                        <img src={facebook} />
                                         </button>
                                         <button
                                             className="w-[30px] h-[30px] rounded-full flex items-center justify-center text-white text-[18px] transition-transform duration-200 hover:translate-y-[-3px]"
                                             style={{background: "black"}}
                                         >
-                                            <img src="/src/assets/images/twitter.png" />
+                                            <img src={twitter} />
                                         </button>
                                         <button
                                             className="w-[30px] h-[30px] rounded-full flex items-center justify-center text-white text-[18px] transition-transform duration-200 hover:translate-y-[-3px]"
                                             style={{background: "rgb(0, 119, 181)"}}
                                         >
-                                            <img src="/src/assets/images/linkedin.png" />
+                                            <img src={linkedin} />
                                         </button>
                                         <button
                                             className="w-[30px] h-[30px] rounded-full flex items-center justify-center text-white text-[18px] transition-transform duration-200 hover:translate-y-[-3px]"
                                             style={{background: "rgb(37, 211, 102)"}}
                                         >
-                                            <img src="/src/assets/images/whatsapp.png" />
+                                            <img src={whatsapp} />
                                         </button>
                                         </div>
                                     </div>

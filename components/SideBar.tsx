@@ -1,6 +1,7 @@
 
 import { X, Home, Compass, Library, Layers, CreditCard, Gift, Settings } from "lucide-react";
 import { useEffect, useState } from "react";
+import logo from "../src/assets/images/logo.png";
 
 export default function Sidebar({ open, onClose }: { open: boolean; onClose: () => void }) {
   const [email, setEmail] = useState("");
@@ -32,7 +33,7 @@ export default function Sidebar({ open, onClose }: { open: boolean; onClose: () 
       >
         {/* Header */}
         <div className="p-4 flex items-center justify-between md:block">
-          <img src="../src/assets/images/logo.png" className="w-[140px]" />
+          <img src={logo} className="w-[140px]" />
           <button className="md:hidden" onClick={onClose}>
             <X />
           </button>

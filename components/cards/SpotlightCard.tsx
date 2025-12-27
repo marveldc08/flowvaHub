@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Modal } from "antd";
+import reclaim from "/src/assets/images/reclaim.png";
 
 export default function SpotlightCard() {
     const [showClaimModal, setShowClaimModal] = useState(false);
@@ -13,7 +14,7 @@ export default function SpotlightCard() {
 
        <div className="flex flex-2 justify-between align-middle">
          <h3 className="text-lg font-semibold mt-4">Top Tool Spotlight</h3>
-        <div className="overflow-hidden relative rounded-full size-10 md:size-16"><img src="/src/assets/images/reclaim.png" /></div>
+        <div className="overflow-hidden relative rounded-full size-10 md:size-16"><img src={reclaim} /></div>
        </div>
         <h3 className="text-lg font-semibold opacity-90">Reclaim.</h3>
       </div>
