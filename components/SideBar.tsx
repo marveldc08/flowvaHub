@@ -32,7 +32,7 @@ export default function Sidebar({ open, onClose }: { open: boolean; onClose: () 
       >
         {/* Header */}
         <div className="p-4 flex items-center justify-between md:block">
-          <img src="/images/logo.png" className="w-[140px]" />
+          <img src="../src/assets/images/logo.png" className="w-[140px]" />
           <button className="md:hidden" onClick={onClose}>
             <X />
           </button>
