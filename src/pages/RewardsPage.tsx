@@ -259,25 +259,25 @@ export default function RewardsPage() {
                                             className="w-[30px] h-[30px] rounded-full flex items-center justify-center text-white text-[18px] transition-transform duration-200 hover:translate-y-[-3px]"
                                             style={{background: "rgb(24, 119, 242)"}}
                                         >
-                                        <img src="./public/images/facebook.png" />
+                                        <img src="/src/assets/images/facebook.png" />
                                         </button>
                                         <button
                                             className="w-[30px] h-[30px] rounded-full flex items-center justify-center text-white text-[18px] transition-transform duration-200 hover:translate-y-[-3px]"
                                             style={{background: "black"}}
                                         >
-                                            <img src="./public/images/twitter.png" />
+                                            <img src="/src/assets/images/twitter.png" />
                                         </button>
                                         <button
                                             className="w-[30px] h-[30px] rounded-full flex items-center justify-center text-white text-[18px] transition-transform duration-200 hover:translate-y-[-3px]"
                                             style={{background: "rgb(0, 119, 181)"}}
                                         >
-                                            <img src="./public/images/linkedin.png" />
+                                            <img src="/src/assets/images/linkedin.png" />
                                         </button>
                                         <button
                                             className="w-[30px] h-[30px] rounded-full flex items-center justify-center text-white text-[18px] transition-transform duration-200 hover:translate-y-[-3px]"
                                             style={{background: "rgb(37, 211, 102)"}}
                                         >
-                                            <img src="./public/images/whatsapp.png" />
+                                            <img src="/src/assets/images/whatsapp.png" />
                                         </button>
                                         </div>
                                     </div>
